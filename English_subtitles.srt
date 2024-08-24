@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:12,432
+def calculate third_part():
+
+2
+00:00:12,432 --> 00:00:33,566
+"""Calculates the third part of a real number. """
+
+3
+00:00:33,566 --> 00:01:04,000
+number = float(input("Enter a real number: "))
+
+4
+00:01:04,000 --> 00:01:18,699
+third_part = number / 3
+
+5
+00:01:18,699 --> 00:01:48,432
+print(f"The third part of {number} is {third_part}") 
+
+6
+00:01:48,432 --> 00:02:07,000
+if __name__=="__main__":
+
+7
+00:02:07,000 --> 00:02:14,000
+calculate third_part()
+
